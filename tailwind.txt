@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Strong Barbers — Tailwind</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="m-0 min-h-screen bg-[#222] text-white font-sans">
+  <div class="flex flex-col md:flex-row justify-center items-start gap-5 p-5">
+
+    <!-- Card 1: Login -->
+    <div class="bg-[#888] p-5 rounded-xl w-[300px] text-center relative shadow">
+      <h1 class="text-3xl text-red-600 drop-shadow-md leading-tight">
+        <span class="font-bold">Strong</span><br />barbers
+      </h1>
+
+      <form class="flex flex-col gap-2.5 my-4">
+        <p class="text-sm tracking-wide">ENTRAR OU FAZER LOGIN</p>
+
+        <label class="text-left text-xs font-semibold">USUÁRIO:</label>
+        <input
+          type="text"
+          name="usuario"
+          class="px-3 py-2 rounded-md border-0 text-black focus:outline-none focus:ring-2 focus:ring-red-500"
+          placeholder="Seu usuário"
+        />
+
+        <label class="text-left text-xs font-semibold">SENHA:</label>
+        <input
+          type="password"
+          name="senha"
+          class="px-3 py-2 rounded-md border-0 text-black focus:outline-none focus:ring-2 focus:ring-red-500"
+          placeholder="Sua senha"
+        />
+
+        <button
+          type="submit"
+          class="mt-1 rounded-md bg-red-600 py-2 font-medium hover:bg-red-800 transition"
+        >
+          Entrar
+        </button>
+      </form>
+
+      <p class="text-sm my-2">
+        CONTRATE BARBEIROS PROFISSIONAIS PARA CORTAR SEU CABELO.
+      </p>
+
+      <img
+        class="w-full rounded-lg mt-4"
+        src="https://static.vecteezy.com/system/resources/thumbnails/039/612/017/small_2x/ai-generated-portrait-of-young-professional-barber-on-transparent-background-image-free-png.png"
+        alt="Barbeiro e criança"
+      />
+    </div>
+
+    <!-- Card 2: Monday's barber -->
+    <div class="bg-[#888] p-5 rounded-xl w-[300px] text-center relative shadow">
+      <h1 class="text-3xl text-red-600 drop-shadow-md leading-tight">
+        <span class="font-bold">Strong</span><br />barbers
+      </h1>
+      <h3 class="text-cyan-200 mt-4 text-lg font-semibold">Monday's barber</h3>
+      <p class="text-sm my-2">
+        Ele corta seu cabelo com destreza e felicidade, cortes precisos são sua qualidade,
+        seu nome é Julinas e ele adoraria cortar seu cabelo.
+      </p>
+      <img
+        class="w-full rounded-lg mt-4"
+        src="https://img.freepik.com/fotos-premium/barbeiro-de-avental-em-pose-de-zen_1368-59463.jpg?w=360"
+        alt="Barbeiro 2"
+      />
+    </div>
+
+    <!-- Card 3: Tuesday's barber -->
+    <div class="bg-[#888] p-5 rounded-xl w-[300px] text-center relative shadow">
+      <h1 class="text-3xl text-red-600 drop-shadow-md leading-tight">
+        <span class="font-bold">Strong</span><br />barbers
+      </h1>
+      <h3 class="text-cyan-200 mt-4 text-lg font-semibold">Tuesday's barber</h3>
+      <p class="text-sm my-2">
+        Este barbeiro é apelidado de cachorrão da barbearia, ele late e rosna quando corta seu cabelo.
+        Só os corajosos cortam o cabelo com ele por isso, seu nome é Carlos Augusto Filho.
+      </p>
+      <img
+        class="w-full rounded-lg mt-4"
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwCkgtijWswk4LsWjrlFF8VbYInoRu7w4yN_O2HiDegWBziT9sOyb6JhZWfwWGyu85Yn4&usqp=CAU"
+        alt="Barbeiro 3"
+      />
+    </div>
+
+  </div>
+</body>
+</html>
